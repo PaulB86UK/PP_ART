@@ -3,7 +3,9 @@
 .container-top {
   display: block;
   padding-top: 4rem;
-  background-color: $theme-color-main;
+  color: #ffff;
+  background-color: #A067AB;
+  background-image: linear-gradient(120deg, #5073B8, #A067AB);
   text-align: center;
   position: relative;
 
@@ -24,8 +26,8 @@
     }
 
     @include media-breakpoint-up(lg) {
-      width: 320px;
-      height: 320px;
+      width: 220px;
+      height: 220px;
     }
   }
 
