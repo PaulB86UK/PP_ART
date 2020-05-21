@@ -2,7 +2,7 @@
 
 ## COVID Community Mobility Reports
 *Trying to gain a little more experience on Tableau, I used some lockdown spare time to make a Dashboard, and while checking which data was trending, and in my way of trying to be a little more original than using the number of infected, recovered, etc, I found some interesting google location data trends made public to help with the virus outbreak.*
- [Check the Tableau - Dashboard](ttps://public.tableau.com/profile/pablo4091#!/vizhome/COVID19Insightsv2/Dashboard1)
+[Check the Tableau - Dashboard](ttps://public.tableau.com/profile/pablo4091#!/vizhome/COVID19Insightsv2/Dashboard1)
 
 ## Time Series with Neural Networks: Predicting Bitcoin Price
 
