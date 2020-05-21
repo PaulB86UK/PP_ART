@@ -7,4 +7,4 @@
 ## Time Series with Neural Networks: Predicting Bitcoin Price
 
 *Time series forecasting is an important area of machine learning that is often neglected. It is important because there are so many prediction problems that involve a time component. These problems are neglected because it is this time component that makes time series problems more difficult to handle.In this Project I will project I will work with the LSTM & RNN Recurrent Neural Networks for Time-Series Analisis to build a model for Bitcoin Price Prediction.*
-[Read the Post - MEDIUM](https://medium.com/@PP_ART/covid-social-impact-179b396fbd9b)
+[Read the Post - MEDIUM](https://medium.com/@PP_ART/time-series-forecasting-neural-networks-2ecd302a3e02)
