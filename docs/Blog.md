@@ -4,7 +4,7 @@ permalink: /Blog/
 ---
 
 # Blog
-## Saturday 23th March 2020 - Titanic Dataset Missing Age Data Values.
+## Saturday 23th March 2020 - Titanic Dataset Age Data Features Fitting (Reorder()).
 Today I worked out some code to fix the numerical values of the features relevant to the Age column of the Tytanic Dataset. The used libraries were Pandas and Seaborn.
 
 |                   Category                   |    Date   |            Source            |
