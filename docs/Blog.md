@@ -13,4 +13,4 @@ Exploratory Data Analysis - Data Preparation
 Fix Categorical Features for NUMERIC target missing values fill-in.
 ### Source:
 Titanic Dataset ['Age'] Data
-### [Link](https://paulb86uk.github.io/PP_ART.github.io/2020/23_05/)
+### [Link](https://github.com/PaulB86UK/EDA_PP/blob/master/2020/May-June/EDA_Reorder.ipynb)
