@@ -1,4 +1,4 @@
-# Some Projects
+# Projects
 
 ## COVID Community Mobility Reports
 *Trying to gain a little more experience on Tableau, I used some lockdown spare time to make a Dashboard, and while checking which data was trending, I found some interesting google location data trends made public to help with the virus outbreak.*
