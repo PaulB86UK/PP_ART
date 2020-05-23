@@ -1,11 +1,19 @@
-# Projects
+# Hello World!
+## Introduction
 
-## COVID Community Mobility Reports
-*Trying to gain a little more experience on Tableau, I used some lockdown spare time to make a Dashboard, and while checking which data was trending, I found some interesting google location data trends made public to help with the virus outbreak.*
-[Check the Tableau - Dashboard](https://public.tableau.com/profile/pablo4091#!/vizhome/COVID19Insightsv2/Dashboard1)
+My name is Pablo Puente, I started in March/April 2020 thanks to COVID "free time" this blog/page/portfolio to keep track of my Data-Science-related work.
 
-## Time Series with Neural Networks: Predicting Bitcoin Price
-*Time series forecasting is an important area of machine learning that is often neglected. It is important because there are so many prediction problems that involve a time component. These problems are neglected because it is this time component that makes time series problems more difficult to handle.In this Project I will project I will work with the LSTM & RNN Recurrent Neural Networks for Time-Series Analisis to build a model for Bitcoin Price Prediction.*
-[Read the Post - MEDIUM](https://medium.com/@PP_ART/time-series-forecasting-neural-networks-2ecd302a3e02)
+## A little more about me
+I arrived in January to the United Kingdom to work and study, hopefully, I will be starting my MSc in Data Science in September. I have a degree in Biotechnology, with a Specialization in Sanitary engineering, 7 years of professional experience and 3 years of academic research. Last year, I started to learn Data Science (on my own), and from that time I never stopped. 
+
+## Links
+
+[--> GitHub Repository](https://github.com/PaulB86UK)
+
+[--> Linkedin Profile](https://www.linkedin.com/in/ppuente86/)
+
+[--> Projects](https://paulb86uk.github.io/PP_ART.github.io/Projects/)
+
+[--> Blog](https://paulb86uk.github.io/PP_ART.github.io/Blog/)
 
 
