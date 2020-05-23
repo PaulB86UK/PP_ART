@@ -1,5 +1,22 @@
-title: PP_ART Blog
-description: Personal Data Science Blog
+title: PP_ART Portfolio Theme 
+email: ppuente86@ymail.com
+brand: PP_ART
+description: Working my way to be a better 'Data Scientist' everyday.
 show_downloads: true
-google_analytics:
+copyright: "1986 Pepe's Company, Inc. All Rights Reserved."
+
+# Build settings
+markdown: kramdown
+
+# Account ids
+snapwidget: 
+# Contacts
+email: ppuente86@ymail.com 
+
+
+# Tracking
+googleAnalitycsID: 
+
+
 theme: jekyll-theme-hacker
+
