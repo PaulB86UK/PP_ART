@@ -7,5 +7,6 @@ My name is Pablo Puente, I have recently arrived in the United Kingdom, to work 
 I really enjoy the challenge of working with data, fitting models and getting insights. Actually looking to land in my first data analysis Job in London.     
 
 You can find my repository at GitHub:
-[GitHub](hhttps://github.com/PaulB86UK)
+[GitHub](https://github.com/PaulB86UK)
+
 Also my [Linkedin Profile](https://www.linkedin.com/in/ppuente86/)
