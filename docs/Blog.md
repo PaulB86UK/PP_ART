@@ -7,7 +7,7 @@ permalink: /Blog/
 ## Saturday 23th March 2020  
 ### Titanic Dataset Age Data Features Fitting - Reorder.
 
-Today I worked out some code to fix the numerical values of the features relevant to the Age column of the Tytanic Dataset. The used libraries were Pandas and Seaborn.
+Today I worked out some code to fix the numerical values of the features relevant to the Age column of the Tytanic Dataset. **Pandas** and **Seaborn** were the used libraries in this opportunity.
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
