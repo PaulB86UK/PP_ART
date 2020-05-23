@@ -13,7 +13,7 @@ permalink: /Projects/
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="./web-dist/images/corona.jpg" alt="Tableau Project" height="150" width="200">
+    <img src="https://github.com/PaulB86UK/PP_ART.github.io/blob/master/docs/web-dist/images/corona.jpg" alt="Tableau Project" height="150" width="200">
   </div>
   <div>
   <h2>SCOVID Community Mobility Reports</h2>
