@@ -16,6 +16,10 @@ Hello!, Today I checked yesterday work, and continue in the same objective, fixi
 
 The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/24_5): 
 
+
+* * *
+
+
 ## Saturday 23th May 2020  
 ### Titanic Dataset Age Data Features Fitting - Reorder.
 
