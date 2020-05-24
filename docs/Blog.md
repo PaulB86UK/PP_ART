@@ -4,7 +4,19 @@ permalink: /Blog/
 ---
 
 # Blog
-## Saturday 23th March 2020  
+## Sunday 24th May 2020  
+### Titanic Dataset Age Data Features Fitting  
+#### Fixing Columns for filling age missing values
+
+Hello!, Today I checked yesterday work, and continue in the same objective, fixing some omisions from yesterday, and also started to work on the object columns, in order to see how to convert them into numbers that make sense for the model I will try to build later on.
+
+|                   Category                   |    Date   |            Source            |
+|:---------------------------------------------|:----------|:-----------------------------|    
+| Exploratory Data Analysis & Data Preparation |24/05/2020 | Titanic Dataset ['Age'] Data |   
+
+The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/24_5): 
+
+## Saturday 23th May 2020  
 ### Titanic Dataset Age Data Features Fitting - Reorder.
 
 Today I worked out some code to fix the numerical values of the features relevant to the Age column of the Tytanic Dataset. **Pandas** and **Seaborn** were the used libraries in this opportunity.
