@@ -8,12 +8,13 @@ I arrived in January to the United Kingdom to work and study, hopefully, I will 
 
 ## Links
 
+[--> Blog](https://paulb86uk.github.io/PP_ART.github.io/Blog/)
+
+[--> Projects](https://paulb86uk.github.io/PP_ART.github.io/Projects/)
+
 [--> GitHub Repository](https://github.com/PaulB86UK)
 
 [--> Linkedin Profile](https://www.linkedin.com/in/ppuente86/)
 
-[--> Projects](https://paulb86uk.github.io/PP_ART.github.io/Projects/)
-
-[--> Blog](https://paulb86uk.github.io/PP_ART.github.io/Blog/)
 
 
