@@ -15,16 +15,12 @@ Hello!, Today I checked yesterday work, and continue in the same objective, fixi
 | Exploratory Data Analysis & Data Preparation |24/05/2020 | Titanic Dataset ['Age'] Data |   
 
 The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/24_5): 
-
-
-
-
+&nbsp;
+&nbsp;
 * * *
 * * *
-
-
-
-
+&nbsp;
+&nbsp;
 ## Saturday 23th May 2020  
 ### Titanic Dataset Age Data Features Fitting - Reorder.
 
