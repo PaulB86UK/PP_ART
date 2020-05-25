@@ -9,7 +9,7 @@ permalink: /Blog/
 ### Titanic Dataset Age Data Features Fitting  
 #### Fixing Columns for filling age missing values
 
-Good Monday!. At this point I continue working with the remaining object features from the dataset: **Name** and **Ticket**
+Good Monday!. At this point I continued working with the remaining object features from the dataset: **Name** and **Ticket**
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
