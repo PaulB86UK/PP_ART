@@ -4,6 +4,20 @@ permalink: /Blog/
 ---
 
 # Blog
+
+## Monday 25th May 2020  
+### Titanic Dataset Age Data Features Fitting  
+#### Fixing Columns for filling age missing values
+
+Good Monday!. At this point I continue working with the remaining object features from the dataset: **Name** and **Ticket**
+
+|                   Category                   |    Date   |            Source            |
+|:---------------------------------------------|:----------|:-----------------------------|    
+| Exploratory Data Analysis & Data Preparation |24/05/2020 | Titanic Dataset ['Age'] Data |   
+
+The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/25_5): 
+#### &nbsp;
+#### &nbsp;
 ## Sunday 24th May 2020  
 ### Titanic Dataset Age Data Features Fitting  
 #### Fixing Columns for filling age missing values
