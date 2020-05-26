@@ -20,6 +20,9 @@ I tried different things, but up to now, only one seems to have worked properly.
 |:---------------------------------------------|:----------|:-----------------------------|    
 | Target Variable ['Age']  transformation      |24/05/2020 | Titanic Dataset ['Age'] Data |   
 
+
+
+The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/26_5): 
 #### &nbsp;
 #### &nbsp;
 ## Monday 25th May 2020  
@@ -31,6 +34,7 @@ Good Monday!. At this point I continued working with the remaining object featur
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
 | Exploratory Data Analysis & Data Preparation |24/05/2020 | Titanic Dataset ['Age'] Data |   
+
 
 The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/25_5): 
 #### &nbsp;
