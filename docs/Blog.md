@@ -5,6 +5,22 @@ permalink: /Blog/
 
 # Blog
 
+## Tuesday 27th May 2020  
+### Titanic Target ['Age'] Missing Values Treatment
+### XGBoost Regressor Fine-Tuning/
+
+#### Wednesday
+Today I prepared some code to train XGboost with the dataset created, after fine tunning I choose a good performing model and use it to complete the missing age rows.
+**Pandas**, **Sklearn** and **XGboost** were the used libraries in this opportunity.
+
+|                   Category                   |    Date   |            Source            |
+|:---------------------------------------------|:----------|:-----------------------------|    
+| Target Variable ['Age'] Missing Values       |24/05/2020 | Titanic Dataset ['Age'] Data |   
+
+The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/27_5): 
+
+#### &nbsp;
+#### &nbsp;
 
 ## Tuesday 26th May 2020  
 ### Titanic Target ['Age'] Transformation 
