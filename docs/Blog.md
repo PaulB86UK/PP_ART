@@ -18,7 +18,7 @@ I tried different things, but up to now, only one seems to have worked properly.
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
-| Target Variable ['Age']  transformation      |24/05/2020 | Titanic Dataset ['Age'] Data |   
+| Target Variable ['Age']  transformation      |26/05/2020 | Titanic Dataset ['Age'] Data |   
 
 
 ### 27th May 2020  
@@ -29,7 +29,7 @@ Today I prepared some code to train XGboost with the dataset created, and test t
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
-| Target Variable ['Age'] Missing Values       |24/05/2020 | Titanic Dataset ['Age'] Data |   
+| Target Variable ['Age'] Missing Values       |27/05/2020 | Titanic Dataset ['Age'] Data |   
 
 The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/26_5): 
 
@@ -43,7 +43,7 @@ Good Monday!. At this point I continued working with the remaining object featur
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
-| Exploratory Data Analysis & Data Preparation |24/05/2020 | Titanic Dataset ['Age'] Data |   
+| Exploratory Data Analysis & Data Preparation |25/05/2020 | Titanic Dataset ['Age'] Data |   
 
 
 The details of the work of today can be seen [here](https://paulb86uk.github.io/PP_ART.github.io/2020/25_5): 
