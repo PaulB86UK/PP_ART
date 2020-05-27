@@ -25,14 +25,14 @@ I tried different things, but up to now, only one seems to have worked properly.
 ### Titanic Target ['Age'] Missing Values Treatment
 ### XGBoost Regressor Fine-Tuning
 
-Today I prepared some code to train XGboost with the dataset created, after fine tunning I choose a good performing model and use it to complete the missing age rows.
-**Pandas**, **Sklearn** and **XGboost** were the used libraries in this opportunity.
+Today I prepared some code to train XGboost with the dataset created, and test the results obtained in the different strategies.  **Pandas**, **Sklearn** and **XGboost** were the used libraries in this opportunity.
 
 |                   Category                   |    Date   |            Source            |
 |:---------------------------------------------|:----------|:-----------------------------|    
 | Target Variable ['Age'] Missing Values       |24/05/2020 | Titanic Dataset ['Age'] Data |   
 
 The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/26_5): 
+
 #### &nbsp;
 #### &nbsp;
 ## Monday 25th May 2020  
