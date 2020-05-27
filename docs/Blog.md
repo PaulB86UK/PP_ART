@@ -31,7 +31,7 @@ Today I prepared some code to train XGboost with the dataset created, and test t
 |:---------------------------------------------|:----------|:-----------------------------|    
 | Target Variable ['Age'] Missing Values       |27/05/2020 | Titanic Dataset ['Age'] Data |   
 
-The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/26_5): 
+The details of the work, [here](https://paulb86uk.github.io/PP_ART.github.io/2020/27_5): 
 
 #### &nbsp;
 #### &nbsp;
