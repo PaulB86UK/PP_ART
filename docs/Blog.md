@@ -7,7 +7,7 @@ permalink: /Blog/
 
 ## Tuesday 27th May 2020  
 ### Titanic Target ['Age'] Missing Values Treatment
-### XGBoost Regressor Fine-Tuning/
+### XGBoost Regressor Fine-Tuning
 
 #### Wednesday
 Today I prepared some code to train XGboost with the dataset created, after fine tunning I choose a good performing model and use it to complete the missing age rows.
