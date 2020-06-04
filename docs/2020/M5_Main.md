@@ -104,8 +104,8 @@ def Escalando(train,test):
   scaler = MinMaxScaler(feature_range=(0, 1))
   values = df.values
   scaler.fit(values)
-  train = scaler.transform(trainA.values)
-  test = scaler.transform(testA.values)
+  train = scaler.transform(train[:,:29].values)
+  test = scaler.transform(test[:,:29].values)
   return train,test
  ```
 The next step is to prepare all the train,val,test sets with the train,test dataframes. The next function, which is explained more in detail in the Bitcoin Project (explaining here will take a lot of space), makes the work.
