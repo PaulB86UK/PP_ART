@@ -108,7 +108,32 @@ def Escalando(train,test):
   test = scaler.transform(testA.values)
   return train,test
  ```
-  
- 
+The next step is to prepare all the train,val,test sets with the train,test dataframes. The next function, which is explained more in detail in the Bitcoin Project (explaining here will take a lot of space), makes the work.
+```python
+def seg_tscv(train,test,n_sp,key):
+      np.random.seed(79)
+      tscv = TimeSeriesSplit(n_splits=n_sp) 
+      X, y = train[:,0:key], train[:,key:] 
+      X_test, y_test = test[:,0:key], test[:,key:] 
+      for train_index, test_index in tscv.split(train):
+        X_train, X_valid = X[train_index], X[test_index]
+        y_train, y_valid = y[train_index], y[test_index]
+      X_train = X_train.reshape((X_train.shape[0], X_train.shape[1],1))
+      X_valid = X_valid.reshape((X_valid.shape[0], X_valid.shape[1], 1))
+      X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
+      Data =  {
+        'X_train': X_train, 
+        'y_train': y_train,
+        'X_valid': X_valid,
+        'y_valid': y_valid,
+        'X_test': X_test,
+        'y_test': y_test}
+      return Data
+ ```
+ The important things to consider here, about the function are:
+ *  the key is the position where the target+1 is, in this case the 28th position.
+ *  n_sp is the number of splits wanted for the TimeSeriesSplit function(has to be tuned, I used a manual Bayesian approach, for the whole tunning of the model)
+ *  The train and validation sets are made with the train dataset, while the test set is made with the test dataset.
+   
  
 
