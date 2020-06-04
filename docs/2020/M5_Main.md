@@ -95,8 +95,20 @@ The following code segments the data following the idea explained.
   test = test.sort_index()
   train = train.sort_index()
   return train,test
+```
+First I select all values that are less than 10, the divisors in the chart, and then made them zero. By sorting first by value and then by day, I can have all the divisors in order in the first rows, so I take two of them and asign values. And finally use this values to create the train, and test dataframes. After this I need to scale the values acordingly for the model:
+
+```python
+def Escalando(train,test):
+  df = pd.concat([train,test])
+  scaler = MinMaxScaler(feature_range=(0, 1))
+  values = df.values
+  scaler.fit(values)
+  train = scaler.transform(trainA.values)
+  test = scaler.transform(testA.values)
+  return train,test
  ```
- First I select all values that are less than 10, the divisors in the chart, and then made them zero. By sorting first by value and then by day, I can have all the divisors in order in the first rows, so I take two of them and asign values. And finally use this values to create the train, and test dataframes.
+  
  
  
 
