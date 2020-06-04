@@ -51,7 +51,7 @@ And then fix the MultishiftA function to shift the dataframe backwards. Only 27 
 def MultishiftA(df, target):
   for i in range(1,28,1): 
     shift = df[target].shift(i)
-    df['{}_t-{}'.format(col,i)] = shift 
+    df['{}_t-{}'.format(target,i)] = shift 
   df2 = df.dropna() 
   df2 = df2.drop(columns=[target])
   df2[target] = df[target]
@@ -135,5 +135,37 @@ def seg_tscv(train,test,n_sp,key):
  *  n_sp is the number of splits wanted for the TimeSeriesSplit function(has to be tuned, I used a manual Bayesian approach, for the whole tunning of the model)
  *  The train and validation sets are made with the train dataset, while the test set is made with the test dataset.
    
+Finally, my favourite franquestein function... With the data ready, the next step is to build up the model. So after a looong time of fine-tunning, I set up this function to run the best configuration and to get predictions for the total sales, for the target days of every category.
+
+``python
+def rNN_fastaFT(Data): 
+    #Sets Asignment
+    X_train, y_train = Data['X_train'], Data['y_train']
+    X_valid,y_valid = Data['X_valid'], Data['y_valid']
+    X_test, y_test  = Data['X_test'], Data['y_test']
+    #Model Building
+    modelo = keras.models.Sequential([
+    keras.layers.SimpleRNN(j, return_sequences=True, input_shape=[28, 1]),
+    keras.layers.SimpleRNN(j, return_sequences = True),
+    keras.layers.SimpleRNN(j, return_sequences = True),
+    keras.layers.SimpleRNN(j),
+    keras.layers.Dense(28)])
+    #Model Setup
+    perdida = "mse"
+    optimizador = keras.optimizers.Adam(lr=0.0001)
+    modelo.compile(loss=perdida, optimizer=optimizador)
+    epoces = 200
+    #Model Callbacks
+    checkpoint_name = 'Best.hdf5' 
+    checkpoint = ModelCheckpoint(checkpoint_name, monitor='val_loss', verbose = 1, save_best_only = True, mode ='auto')
+    callbacks_list = [checkpoint]
+    #Model ON!
+    history = model.fit(X_train, y_train, epochs=epoces, validation_data=(X_valid, y_valid), callbacks=callbacks_list)
+    #Error on unkown dataset (test)
+    y_pred = model.predict(X_test)
+    err = np.sqrt(mean_squared_error(y_test, y_pred))
+    return err
+ ```
  
+
 
