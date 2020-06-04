@@ -145,10 +145,10 @@ def rNN_fastaFT(Data):
     X_test, y_test  = Data['X_test'], Data['y_test']
     #Model Building
     modelo = keras.models.Sequential([
-    keras.layers.SimpleRNN(j, return_sequences=True, input_shape=[28, 1]),
-    keras.layers.SimpleRNN(j, return_sequences = True),
-    keras.layers.SimpleRNN(j, return_sequences = True),
-    keras.layers.SimpleRNN(j),
+    keras.layers.SimpleRNN(150, return_sequences=True, input_shape=[28, 1]),
+    keras.layers.SimpleRNN(150, return_sequences = True),
+    keras.layers.SimpleRNN(150, return_sequences = True),
+    keras.layers.SimpleRNN(150),
     keras.layers.Dense(28)])
     #Model Setup
     perdida = "mse"
