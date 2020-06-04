@@ -160,9 +160,9 @@ def rNN_fastaFT(Data):
     checkpoint = ModelCheckpoint(checkpoint_name, monitor='val_loss', verbose = 1, save_best_only = True, mode ='auto')
     callbacks_list = [checkpoint]
     #Model ON!
-    history = model.fit(X_train, y_train, epochs=epoces, validation_data=(X_valid, y_valid), callbacks=callbacks_list)
+    history = modelo.fit(X_train, y_train, epochs=epoces, validation_data=(X_valid, y_valid), callbacks=callbacks_list)
     #Error on unkown dataset (test)
-    y_pred = model.predict(X_test)
+    y_pred = modelo.predict(X_test)
     err = np.sqrt(mean_squared_error(y_test, y_pred))
     return err
  ```
