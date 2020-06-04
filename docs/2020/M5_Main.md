@@ -88,4 +88,4 @@ def MultishiftA(df, target):
   return train,test
  ```
  
- [image](https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png)
+ ![prueba](https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png)
