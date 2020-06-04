@@ -137,7 +137,7 @@ def seg_tscv(train,test,n_sp,key):
    
 Finally, my favourite franquestein function... With the data ready, the next step is to build up the model. So after a looong time of fine-tunning, I set up this function to run the best configuration and to get predictions for the total sales, for the target days of every category.
 
-``python
+```python
 def rNN_fastaFT(Data): 
     #Sets Asignment
     X_train, y_train = Data['X_train'], Data['y_train']
