@@ -64,7 +64,7 @@ def MultishiftA(df, target):
     for j in range(1,29): #28 forward steps
       shift = df[target].shift(-j) 
       df['{}_t+{}'.format(target,j)] = shift 
-      df = df.dropna()
+    df = df.dropna()
     return df
   ```
  Now I had to split the data into train and test(model validation). To decide which portion of the data to use, I made a plot of the total sales of everyday, considering all the stores, to see the trends...
