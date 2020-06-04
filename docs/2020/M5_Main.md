@@ -68,6 +68,24 @@ def MultishiftA(df, target):
       df = df.dropna()
     return df
   ```
+ Now I had to split the data into train and test(model validation). To decide which portion of the data to use, I made a plot of the total sales of everyday, considering all the stores, to see the trends...
  
  
-  
+ 
+ ```python
+ def SegmentA(df,colval,colday):
+  mask = (df[colval] < 10)
+  df.loc[mask, colval] = 0
+  df= df.sort_values(ascending= True, by= [colval,colday]) 
+  val_cat_train_inicio = df.iloc[1,0]
+  val_cat_train_final = df.iloc[3,0]
+  train = df[(df[colday] > val_cat_train_inicio) & (df[colday] < val_cat_train_final)]
+  test = df[df[colday] > val_cat_train_final]
+  train = train.drop(columns=[colday])
+  test = test.drop(columns=[colday])
+  test = test.sort_index()
+  train = train.sort_index()
+  return train,test
+ ```
+ 
+ [image](https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png)
