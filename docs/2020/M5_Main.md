@@ -22,7 +22,7 @@ Time Range Used: All
 #### Code Explained:
 First I used and transformed the MultishiftA function, from the multifeature code I built last month in order to check the [Bitcoin Price Prediction](https://medium.com/@PP_ART/time-series-forecasting-neural-networks-2ecd302a3e02). For this part of the M5 project the only feature I decided to use is the total sales per day, and per Store.
 
-### [STORE] >>> [TOTAL SALES PER DAY]
+### [STORE] >>> [TOTAL SALES PER DAY]  [<04_05_2020]
 
 So to start, we have to make the sum of the sales, after filtering one store:
 ```python
@@ -47,17 +47,27 @@ train = df_cat[(df_cat['dia'] > val_cat_train_inicio) & (df_cat['dia'] < val_cat
 test = df_cat[df_cat['dia'] > val_cat_train_final] 
 ```
 
-And then fix the MultishiftA function
+And then fix the MultishiftA function to shift the dataframe backwards. Only 27 steps, since the present is considered for the train, making a total of 28 steps for the training set.
 ```python
-def MultishiftA(df,ide,target):
-  for i in range(1,28,1):
+def MultishiftA(df, target):
+  for i in range(1,28,1): #27 backward steps +present = 28
     shift = df[target].shift(i)
-    df['{}_t-{}'.format(col,i)] = shift
-  df2 = df.dropna() #Can not leave NaN cells
-  df2 = df2.drop(columns=[col])
-  df2[target] = df[target] #this two steps is to locate the target in the middle.
+    df['{}_t-{}'.format(col,i)] = shift #I renamed the column with the '-' for the backward
+  df2 = df.dropna() 
+  df2 = df2.drop(columns=[target])
+  df2[target] = df[target]
   return df2
-  
-  
+ ```
+ 
+ The next step in the transformation is to use the pandas shift function to the future, that will be the 28 steps test set for the model.
+ ```python
+ def MultishiftB(df,target):
+    for j in range(1,29): #28 forward steps
+      shift = df[target].shift(-j) #the '-' sign allows to shift forward
+      df['{}_t+{}'.format(target,j)] = shift #I renamed the column with the '+' for the forward
+      df = df.dropna()
+    return df
   ```
+ 
+ 
   
