@@ -69,7 +69,15 @@ def MultishiftA(df, target):
   ```
  Now I had to split the data into train and test(model validation). To decide which portion of the data to use, I made a plot of the total sales of everyday, considering all the stores, to see the trends...
  
- 
+  I have to make a better graph, I now is bad, but helps to explain the idea.
+  ![prueba](https://paulb86uk.github.io/PP_ART.github.io/2020/Total_Ventas.png)
+  
+  In the graph it can be clearly see the regions delimited by almost 0 sales days.
+  So taking advantage of this fact, I decided to:
+  -Dont use the first portion
+  -Keep the 2nd and 3rd portion as train for the model.
+  -Use the 4th and 5th portion as validation for the model.
+ The following code segments the data following the idea explained.
  
  ```python
  def SegmentA(df,colval,colday):
@@ -86,5 +94,4 @@ def MultishiftA(df, target):
   train = train.sort_index()
   return train,test
  ```
- 
- ![prueba](https://paulb86uk.github.io/PP_ART.github.io/2020/Total_Ventas.png)
+
