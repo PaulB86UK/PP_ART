@@ -96,4 +96,7 @@ The following code segments the data following the idea explained.
   train = train.sort_index()
   return train,test
  ```
+ First I select all values that are less than 10, the divisors in the chart, and then made them zero. By sorting first by value and then by day, I can have all the divisors in order in the first rows, so I take two of them and asign values. And finally use this values to create the train, and test dataframes.
+ 
+ 
 
