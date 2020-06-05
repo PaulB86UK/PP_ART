@@ -4,7 +4,7 @@ permalink: /Blog/
 ---
 
 # Blog
-## 4th of June 2020
+## 4th of June 2020 - KAGGLE M5 COMPETITION
 These days I made a pause on the Titanic Age Column transformation, since I was not achieving the results I wanted. But this help me to refresh and learn concepts on how to improve both Neural Networks and XGBoost Classifier algorithms. I joined the M5 Competition at Kaggle(a little late), and now all my effort is on this competition. The complete project of this competition is in the following [link](https://paulb86uk.github.io/PP_ART.github.io/2020/M5/Main) (Note:  Work in progress!)
 
 
