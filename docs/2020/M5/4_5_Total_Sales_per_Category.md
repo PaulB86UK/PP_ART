@@ -1,6 +1,6 @@
 ---
-title: M5_MAIN
-permalink: /2020/M5_Main
+title: Sales per Category per Day.
+permalink: /2020/M5_Sales_per_Category_day
 ---
 [Go Back](https://paulb86uk.github.io/PP_ART.github.io/)
 
