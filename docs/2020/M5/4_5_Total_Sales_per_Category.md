@@ -4,10 +4,10 @@ permalink: /2020/M5/Sales_per_Category_day
 ---
 [Go Back](https://paulb86uk.github.io/PP_ART.github.io/)
 
-## Up to the 4th of June of 2020
-### [STORE] >>> [TOTAL SALES PER DAY]  [<04_05_2020]
+## M5 KAGGLE COMPETITION
+### [CATEGORY] >>> [TOTAL SALES PER DAY]  [<04_05_2020]
 #### Total Sales per day of every Category: 
-Time Range Used: All
+Note: Time Range Used: All
 
 First I used and transformed the MultishiftA function, from the multifeature code I built last month in order to check the [Bitcoin Price Prediction](https://medium.com/@PP_ART/time-series-forecasting-neural-networks-2ecd302a3e02). For this part of the M5 project the only feature I decided to use is the total sales per day, and per Category.
 
