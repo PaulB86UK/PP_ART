@@ -6,16 +6,6 @@ permalink: /2020/M5_Main
 
 ## Up to the 4th of June of 2020
 
-The M5 Competition...
-The Strategy I choose:
-The Planned Schedule:
-The Metrics?
-The Parts.
-PartA: 
-## Working on the File1...
-### Working on the Column:::
-
-The idea is to get some data to the final model:
 #### Total Sales per day of every Store: 
 Time Range Used: All
 
@@ -37,7 +27,7 @@ for i in file1[file1['cat_id'] == 'HOBBIES'].columns[6:]:
 df_cat = pd.DataFrame(data = {'dia' : dia, 'valor' : valor}) 
 df_cat['dia'] = df_cat['dia'].str.replace("d_","") #
 df_cat['dia'] = df_cat['dia'].astype(int)  
-mask = (df_cat['valor'] < 10) 
+mask = (df_cat['valor'] < 21) 
 df_cat.loc[mask, 'valor'] = 0 
 df_cat = df_cat.sort_values(ascending= True, by= ['valor','dia']) 
 val_cat_train_inicio = df_cat.iloc[1,0] 
@@ -167,5 +157,71 @@ def rNN_fastaFT(Data):
     return err
  ```
  
-
+#STEP 6. SETTING UP and RUNNING THE MODEL
+def rNN_fastaFT(Data): 
+    #Sets Asignment
+    X_train, y_train = Data['X_train'], Data['y_train']
+    X_valid,y_valid = Data['X_valid'], Data['y_valid']
+    X_test, y_test  = Data['X_test'], Data['y_test']
+    #Model Building
+    modelo = keras.models.Sequential([
+    keras.layers.SimpleRNN(150, return_sequences=True, input_shape=[28, 1]),
+    keras.layers.SimpleRNN(150, return_sequences = True),
+    keras.layers.SimpleRNN(150, return_sequences = True),
+    keras.layers.SimpleRNN(150),
+    keras.layers.Dense(28)])
+    #Model Setup
+    perdida = "mse"
+    optimizador = keras.optimizers.Adam(lr=0.0001)
+    modelo.compile(loss=perdida, optimizer=optimizador)
+    epoces = 120
+    #Model Callbacks
+    checkpoint_name = 'Best.hdf5' 
+    checkpoint = ModelCheckpoint(checkpoint_name, monitor='val_loss', verbose = 1, save_best_only = True, mode ='auto')
+    callbacks_list = [checkpoint]
+    #Model ON!
+    history = modelo.fit(X_train, y_train, epochs=epoces, validation_data=(X_valid, y_valid), callbacks=callbacks_list)
+    #Error on unkown dataset (test)
+    y_pred = modelo.predict(X_test)
+    err = np.sqrt(mean_squared_error(y_test, y_pred))
+    return err
+    
+#STEP 7. COMPILE BEST MODEL
+def mejormodelo():
+  modelo = keras.models.Sequential([
+            keras.layers.SimpleRNN(150, return_sequences=True, input_shape=[28, 1]),
+            keras.layers.SimpleRNN(150, return_sequences = True),
+            keras.layers.SimpleRNN(150, return_sequences = True),
+            keras.layers.SimpleRNN(150),
+            keras.layers.Dense(28)])
+  modelo.load_weights('Best.hdf5')
+  optimizer = keras.optimizers.Adam(lr=0.0001)
+  modelo.compile(loss='mse', optimizer=optimizer)
+  return modelo
+  
+#STEP 8. GET A PREDICTION
+def laprediccione():
+  #prepare the last line of df2(to make the predictions)
+  df_prediccion  = df2.drop(columns=['dia'])
+  df_prediccion = df_prediccion.loc[1912,:]
+  df_prediccion = escalerA.transform(df_prediccion.values.reshape(56,1).transpose())
+  df_prediccion = df_prediccion[:,:28]
+  #make the prediction
+  resultado = modelo.predict(df_prediccion.reshape(1,28,1))
+  #reshape prediction in order to do inverse scaling
+  resultado = np.append(df_prediccion,resultado)
+  resultado = resultado.transpose()
+  resultado = resultado.reshape(1,56)
+  resultado = escalerA.inverse_transform(resultado)
+  resultado = resultado[:,28:].transpose()
+  resultado = resultado.reshape(28)
+  return resultado
+  
+#MAKE A DATAFRAME AND DOWNLOAD IT
+def lafinale(resultado,cat):
+  dia2 = np.array(range(1914,1942,1))
+  df = pd.DataFrame(data={'dia':dia2, 'pred_valor':resultado})
+  name = 'total_{}.csv'.format(cat)
+  df.to_csv(name)
+  files.download(name)
 
