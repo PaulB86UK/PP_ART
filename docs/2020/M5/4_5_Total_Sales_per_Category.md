@@ -1,6 +1,6 @@
 ---
 title: Sales per Category per Day.
-permalink: /2020/M5_Sales_per_Category_day
+permalink: /2020/M5/Sales_per_Category_day
 ---
 [Go Back](https://paulb86uk.github.io/PP_ART.github.io/)
 
@@ -200,3 +200,7 @@ def lafinale(resultado,cat):
   df.to_csv(name)
   files.download(name)
 ```
+Again, if you happen to be here, thanks for reading.
+
+[Go Back](https://paulb86uk.github.io/PP_ART.github.io/)
+
