@@ -4,9 +4,11 @@ permalink: /Blog/
 ---
 
 # Blog
-## July 2020 - KAGGLE MELANOMA COMPETITION
+## July 2020 - KAGGLE MELANOMA COMPETITION.
+After reading and using other competitions codes and fragments, getting a nice place between the 300-400 competitors with 0.946 score, I decided to try some ideas of mine that I did not see in the competition notebooks and discussion, to check if I can boost a little more my score.
 ### FIRST STEPS
-Setting up Images.
+Setting up Images. EDA and evaluating some transformations.
+[link](https://github.com/PaulB86UK/Melanoma-Competition)
 
 ## 4th of June 2020 - KAGGLE M5 COMPETITION
 These days I made a pause on the Titanic Age Column transformation, since I was not achieving the results I wanted. But this help me to refresh and learn concepts on how to improve both Neural Networks and XGBoost Classifier algorithms. I joined the M5 Competition at Kaggle(a little late), and now all my effort is on this competition. The complete project of this competition is in the following [link](https://paulb86uk.github.io/PP_ART.github.io/2020/M5/Main) (Note:  Work in progress!. It has been a kind of crazy month, I will update this after finishing the Melanoma Competition)
