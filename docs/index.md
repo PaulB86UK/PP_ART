@@ -8,9 +8,13 @@ I arrived in January to the United Kingdom to work and study, hopefully, I will 
 
 ## Licences and Certifications
 -Google Cloud Platform Big Data and Machine Learning Fundamentals [#GMW5MLXRFSD9](https://www.coursera.org/account/accomplishments/certificate/GMW5MLXRFSD9)
+
 -How Google does Machine Learning  [#U9J36B9TNNMA](https://www.coursera.org/account/accomplishments/certificate/U9J36B9TNNMA)
+
 -Python 3 Tutorial Course  [#1073-19166948](https://www.sololearn.com/Certificate/1073-19166948/pdf/)
+
 -SQL Fundamentals [#1060-19166948](https://www.sololearn.com/Certificate/1060-19166948/pdf/)
+
 
 ## Links
 
