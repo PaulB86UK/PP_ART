@@ -10,9 +10,9 @@ I arrived in January to the United Kingdom to work and study, hopefully, I will 
 ### Data Engineering, Big Data, and Machine Learning on GCP**
 This five-course accelerated specialization is designed for data professionals who are responsible for designing, building, analyzing, and optimizing big data solutions. Through a combination of video lectures, quizzes, and hands-on labs, learners carried out serverless data analysis and productionize machine learning models. This specialization is designed to give learners a robust hands-on experience and is primarily labfocused.
 
-[Specialization Certificate:](https://www.coursera.org/account/accomplishments/specialization/certificate/AKELQA4GR4UD)
+[Specialization Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/AKELQA4GR4UD)
 
-***Courses Involved:
+**Courses Involved:**
 
 -->Smart Analytics, Machine Learning, and AI on GCP [#PCQGQPG8LSLQ](https://www.coursera.org/account/accomplishments/certificate/PCQGQPG8LSLQ)
 
