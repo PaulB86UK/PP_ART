@@ -4,7 +4,7 @@ permalink: /Blog/
 ---
 
 # Blog
-## August 2020 - GOOGLE CLOUD SERVICES SPECIALIZATION COURSES ON COURSERA.
+## August 2020 - GOOGLE CLOUD SERVICES SPECIALIZATION COURSES.
 ### 08/08/2020 - Data Engineering, Big Data, and Machine Learning on GCP
 Finally after one month of hard work, I finish the specialization.
 
