@@ -4,10 +4,17 @@ permalink: /Blog/
 ---
 
 # Blog
+## August 2020 - GOOGLE CLOUD SERVICES SPECIALIZATION COURSES ON COURSERA.
+### 08/08/2020 - Data Engineering, Big Data, and Machine Learning on GCP
+Finally after one month of hard work, on this one I finish the specialization.
+[link](https://www.coursera.org/account/accomplishments/specialization/AKELQA4GR4UD)
 
 ## July 2020 - KAGGLE MELANOMA COMPETITION.
 After reading and using other competitions codes and fragments, getting a nice place between the 300-400 competitors with 0.946 score, I decided to try some ideas of mine that I did not see in the competition notebooks and discussion, to check if I can boost a little more my score.
 I am working on the solution, I will post the complete code after the competition ends.
+
+Update August: After some hard work I could rise my score to 0.9534. At this point, by feeling I lack some expertise, and also lack a lot of computing power, I decided to pause the work on this competition, and started doing some cloud courses on Data Engineering and ML in Coursera related to the use of Google Cloud Services.
+
 ## July 2020 - Learning Pytorch
 ### 18/7. Basics + Boston Dataset.
 Today, while training some models for the Melanoma comp,  I build a small regression model using Torch from the very basics, while giving my first steps in pyTorch. I used the old Boston House Dataset from Kaggle: [GitHub - Link] (https://github.com/PaulB86UK/M5_Competition/blob/master/pytorch/Pytorch_Boston_House_Prediction.ipynb)
