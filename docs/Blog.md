@@ -6,7 +6,8 @@ permalink: /Blog/
 # Blog
 ## August 2020 - GOOGLE CLOUD SERVICES SPECIALIZATION COURSES ON COURSERA.
 ### 08/08/2020 - Data Engineering, Big Data, and Machine Learning on GCP
-Finally after one month of hard work, on this one I finish the specialization.
+Finally after one month of hard work, I finish the specialization.
+
 [link](https://www.coursera.org/account/accomplishments/specialization/AKELQA4GR4UD)
 
 ## July 2020 - KAGGLE MELANOMA COMPETITION.
