@@ -1,5 +1,0 @@
-Samples of code to publish on the website
---February/March 2022
---Friday Am Pack Translation from SPSS to python SQL (July - August)
---
---
