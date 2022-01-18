@@ -120,23 +120,10 @@ logging.info(f'{now} - user : {user}')
 
 user_username = None
 user_password = None
-
-if user == 'AAndreou':
-    user_username = 'aandreou.scripts'
-    user_password = 'AntoniaSQLpass'
-elif user == 'PLAKER':
-    user_username = 'plaker.scripts'
-    user_password = 'plakerSQLpass'    
+  
 elif user == 'PPuente':
     user_username = 'PPuente.scripts'  
     user_password = 'pp_keyring'
-elif user == 'JLong2':
-    user_username = 'jlong2.scripts'  
-    user_password = 'jl_keyring'
-
-elif user == 'OAina':
-    user_username = 'oaina.scripts'  
-    user_password = 'oa_keyring'
 
 
 else:
