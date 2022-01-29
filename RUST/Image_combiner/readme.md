@@ -1,0 +1,1 @@
+Second successful compiled code in Rust!! This time an image combiner, where I used multiple functions, mutable variables, different types of data inputs including vectors, some libraries, and a big chunk of error handling, using  a lot of Rust functionality including borrowing, enums, some libraries, matchs and impl among others.
